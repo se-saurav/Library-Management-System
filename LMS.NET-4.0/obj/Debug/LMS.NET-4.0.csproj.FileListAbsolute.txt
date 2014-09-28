@@ -1,0 +1,10 @@
+c:\users\saurav\documents\visual studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\bin\LMS.NET-4.0.dll
+c:\users\saurav\documents\visual studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\bin\LMS.NET-4.0.pdb
+c:\users\saurav\documents\visual studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\obj\Debug\LMS.NET-4.0.dll
+c:\users\saurav\documents\visual studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\obj\Debug\LMS.NET-4.0.pdb
+C:\Users\SAURAV\Documents\Visual Studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\obj\Debug\LMS.NET-4.0.csprojResolveAssemblyReference.cache
+C:\Windows.old\Users\SAURAV\Documents\Visual Studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\bin\LMS.NET-4.0.dll
+C:\Windows.old\Users\SAURAV\Documents\Visual Studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\bin\LMS.NET-4.0.pdb
+C:\Windows.old\Users\SAURAV\Documents\Visual Studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\obj\Debug\LMS.NET-4.0.dll
+C:\Windows.old\Users\SAURAV\Documents\Visual Studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\obj\Debug\LMS.NET-4.0.pdb
+C:\Windows.old\Users\SAURAV\Documents\Visual Studio 2010\Projects\LMS.NET-4.0\LMS.NET-4.0\obj\Debug\LMS.NET-4.0.csprojResolveAssemblyReference.cache

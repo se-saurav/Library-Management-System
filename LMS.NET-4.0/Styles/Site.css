@@ -1,0 +1,313 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: White;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* BUTTON
+----------------------------------------------------------*/
+
+.btn
+{
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 5px 10px;
+    background-color:cadetblue;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 0px solid #000000;
+	cursor:pointer;
+}
+.btn:hover
+{
+    background-color: #B5B5B5;
+    color: Black;
+    text-decoration: none;
+}
+.btn:active
+{
+    background-color: Gray;
+    color: Black;
+    text-decoration: none;
+}
+/*TextBox
+----------------------------------------------------------*/
+.txt
+{
+    border: 1px solid Gray;
+    display :inline-block;
+    padding: 4px 4px 4px 4px;
+    font-family:Arial;
+}
+.txt:hover
+{
+    border-color:#B5B5B5;
+    -moz-box-shadow:inset 0px 0px 1px 1px rgba(0,0,200,0.2);
+	-webkit-box-shadow:inset 0px 0px 0px 1px 1px rgba(0,0,200,0.2);
+	box-shadow:inset 0px 0px 1px 1px rgba(0,0,200,0.2);
+}
+
+.txt:active
+{
+    border-color:Black;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 100%;
+    min-width:960px;
+    background-color:White;
+    padding:0px;
+    margin:0px;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height:51px;
+    background: Gray;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px;
+    margin:0px;
+    height: 70%;
+    position:absolute;
+    top:51px;
+    bottom:20%;
+    background-color:White;
+    left:0px;
+    right:0px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:30px;
+    background-color:White;
+    border-top:1px solid Gray;
+    color: Gray;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    background-color: gray;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    background-color: gray
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: gray;
+    border: 0px #4e667d solid;
+    color: black;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
